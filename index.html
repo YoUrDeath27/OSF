@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    
+    <title>OSF</title>
+</head>
+<body>
+
+<img src="img/OSF.png" alt="logo">
+<nav id="nav"> 
+    <div> <a href="#"> HOME </a> </div> 
+    <div> <a href="#"> ABOUT US </a> </div>
+    <div> <a href="#"> ARTICLES </a> </div>
+    <div> <a href="#"> TECH </a> </div>
+    <div> <a href="#"> BUSINESS </a> </div>
+    <div> <a href="#"> ENTERTAINMENT </a>
+        <section id="dropdown" class="hidden">
+            <h3> <a href="#"> Film </a> </h3> 
+            <h3> <a href="#"> Gaming </a> </h3> 
+            <h3> <a href="#"> Music </a> </h3> 
+            <h3> <a href="#">  TV </a> </h3> 
+        </section> 
+    </div>
+    <div> <a href="#"> SOCIAL </a> </div>
+    <div> <a href="#"> MEDIA </a> </div>
+    <div> <a href="#"> CONTACT </a> </div>
+</nav>
+
+<!-- CSS line 59 -->
+<main>
+                        <!-- id=image -->
+    <section id="banner"> 
+        <div id="carousel">
+            <img src="img/example1.png" alt=" example1 "> 
+            <img src="img/example2.png" alt=" example2">
+            <img src="img/example3.png" alt=" example3">
+            <img src="img/example4.png" alt=" example4">
+            <img src="img/example-original.png" alt=" example-last">
+        </div> 
+        <ul id="buttons">
+            <li>   
+                <button data-selector="1" onclick="banner(this);"></button>
+            </li>
+            <li>
+                <button data-selector="2" onclick="banner(this);"></button>
+            </li>
+            <li>
+                <button data-selector="3" onclick="banner(this);" class="active"></button>
+            </li>
+            <li>
+                <button data-selector="4" onclick="banner(this);"></button> 
+            </li>
+            <li>
+                <button data-selector="5" onclick="banner(this)"></button>
+            </li>
+        </ul>
+    </section>
+
+                        <!--  CSS line 143 -->
+    <section id="feed">  
+        <!--  1  -->
+        <div class="post">
+                <div class="likes">
+                    <h3> 80 </h3> 
+                    <h3> Loves</h3> 
+                    <button> <img src="img/heart.png" alt=" heart "> </button>
+                </div>
+
+                <p class="breadcrumb"> <a href="#"> Business </a>  > <a href="#"> Gamification </a></p>
+                <h3 class="title"> The Evolving Role of Social Media in  News Organizations [LIVE Q&A ] </h3>
+                <p class="info">     Posted by 
+                    <a href="#" class="author"> Charlie </a>
+                        1 Hours ago
+                    <a href="#" class="comments"> 30 comments </a> 
+                </p>
+                    
+                <p class="text"> a few years ago, news organizations were unsure about  social. Journalists were apprehensive to create Twitter accounts and media companies questioned whether a branded Facebook fan page was necessary </p>
+                <p class="tags">  TAGS:   <a href="#"> Evolving Role </a> <a href="#"> Social Media </a> <a href="#"> Organizations</a> </p>
+                
+            <img src="img/1.png" alt=" 1 img" class="img">
+        </div>    
+
+        <!--  2  -->
+        <div class="post">
+                <div class="likes">
+                    <h3> 50 </h3> 
+                <h3> Loves</h3> 
+                    <button> <img src="img/heart.png" alt=" heart "> </button>
+                </div>
+
+                <p class="breadcrumb"> <a href="#"> Entertainment </a>  > <a href="#"> Gaming </a></p>
+                <h3 class="title">  Battlefield 3 Has Record Opening Weekend Despite Tech Woes </h3>
+                <p class="info">     Posted by 
+                    <a href="#" class="author"> Peter </a>
+                        1 Hours ago
+                    <a href="#" class="comments"> 36 comments </a> 
+                </p>
+                    
+                <p class="text"> Battlefield 3, a new first-person shooter video game 
+                    from EA and DICE, has hit the ground running with 
+                    great sales numbers and a slew of online problems. The 
+                    game, released Oct. 25, was hit with serious problem... </p>
+                <p class="tags">  TAGS:  <a href="#"> Battlefield </a> <a href="#"> Record</a> <a href="#"> Openin </a> <a href="#"> Weekend </a> <a href="#"> Despite </a> <a href="#"> Tech </a> <a href="#"> Woes </a> </p>
+                
+            <img src="img/2.png" alt=" 2 img" class="img">
+        </div>  
+
+        <!--  3  -->
+        <div class="post">
+            <div class="likes">
+                <h3> 55 </h3> 
+                <h3> Loves</h3> 
+                <button> <img src="img/heart.png" alt=" heart "> </button>
+            </div>
+
+            <p class="breadcrumb"> <a href="#"> Tech </a>  > <a href="#"> Education </a></p>
+            <h3 class="title">   How 5 Tech Giants Are Giving Back to 
+                Education </h3>
+            <p class="info">     Posted by 
+                <a href="#" class="author"> Stan </a>
+                    1 Hours ago
+                <a href="#" class="comments"> 125 comments </a> 
+            </p>
+                
+            <p class="text"> Melissa Jun Rowley is a television and online journalist 
+                and social entrepreneur. Her writing has been featured 
+                on CBS News, Discovery News, LA Weekly, and others
+                and she has produced and reported for CNN... </p>
+            <p class="tags">  TAGS:  <a href="#"> How </a> <a href="#"> Tech</a> <a href="#"> Giants </a> <a href="#"> Giving </a> <a href="#"> Back </a> <a href="#"> CBS </a> <a href="#"> CNN </a> </p>
+            
+        <img src="img/3.png" alt=" 3 img" class="img">
+    </div>  
+
+    <!--  4  -->
+    <div class="post">
+        <div class="likes">
+            <h3> 95 </h3> 
+            <h3> Loves</h3> 
+            <button> <img src="img/heart.png" alt=" heart "> </button>
+        </div>
+
+        <p class="breadcrumb"> <a href="#"> Business </a>  > <a href="#"> Apple </a></p>
+        <h3 class="title">   Apple Gives Its Key Execs $400 Million 
+            in Bonuses </h3>
+        <p class="info">     Posted by 
+            <a href="#" class="author"> Daniel </a>
+                2 Hours ago
+            <a href="#" class="comments"> 78 comments </a> 
+        </p>
+
+        <p class="text"> Apple has awarded seven of its key executives with 
+            massive stock grants worth approximately $400 million 
+            in totalSix Apple SVPs have been awarded 150,000 
+            shares of Apple for their services, according to recent... </p>
+        <p class="tags">  TAGS:  <a href="#"> Apple </a> <a href="#"> Gives</a> <a href="#"> Key </a> <a href="#"> Execs </a> <a href="#"> $400 </a> <a href="#"> Million </a> <a href="#"> Bonuses </a> </p>
+        
+    <img src="img/4-6.png" alt=" 4 img" class="img">
+</div>  
+
+    <!--  5  -->
+    <div class="post">
+        <div class="likes">
+            <h3> 250 </h3> 
+            <h3> Loves</h3> 
+            <button> <img src="img/heart.png" alt=" heart "> </button>
+        </div>
+
+        <p class="breadcrumb"> <a href="#"> Social Media </a>  > <a href="#"> Business </a></p>
+        <h3 class="title">   7 Ways to Create a Memorable 
+            Customer Experience With Social Media </h3>
+        <p class="info">     Posted by 
+            <a href="#" class="author"> Mark </a>
+                3 Hours ago
+            <a href="#" class="comments"> 155 comments </a> 
+        </p>
+        
+        <p class="text"> There’s bad news and good news about the way 
+            consumers interact with brands on social media.The 
+            bad news? When customers complain on social media 
+            those complaints can tarnish your brand’s name for a... </p>
+        <p class="tags">  TAGS:  <a href="#"> Ways </a> <a href="#"> Create</a> <a href="#"> Memorable </a> <a href="#"> Customer </a> <a href="#"> Experience </a>  </p>
+        
+    <img src="img/5.png" alt=" 5 img" class="img">
+</div> 
+
+    <!--  6  -->
+    <div class="post">
+    <div class="likes">
+        <h3> 960 </h3> 
+        <h3> Loves</h3> 
+        <button> <img src="img/heart.png" alt=" heart "> </button>
+    </div>
+
+    <p class="breadcrumb"> <a href="#"> Entertainment </a>  > <a href="#"> TV </a></p>
+    <h3 class="title">   TVGuide.com Watchlist Predicts Fall TV 
+        Shows’ Success </h3>
+    <p class="info">     Posted by 
+        <a href="#" class="author"> Jenny </a>
+            5 Hours ago
+        <a href="#" class="comments"> 145 comments </a> 
+    </p>
+        
+    <p class="text"> Nine of the top 10 new fall TV shows on TVGuide.com‘s 
+        Watchlist were picked up for a second season, 
+        illustrating the platform’s success in predicting hits, 
+        said Christy Tanner, EVP and general manager of TV... </p>
+    <p class="tags">  TAGS:  <a href="#"> TVGuide </a> <a href="#"> Watchlist</a> <a href="#"> Predicts </a> <a href="#"> Fall </a> <a href="#"> TV </a> <a href="#"> Shows </a> <a href="#"> Success </a> </p>
+    
+<img src="img/4-6.png" alt=" 4 img" class="img">
+</div>  
+
+        <ul id="page">
+            <li id="active"> 1 </li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+            <li>6</li>
+            <li>7</li>
+            <li>8</li>
+            <li>9</li>
+            <li>10</li>
+            <li>11</li>
+            <li>>></li>
+            <li>Last >></li>
+        </ul>
+
+    </section> 
+    <!-- end feed -->
+                            <!-- right side -->
+    <section id="side"> 
+
+                            <!--  search -->
+        <section id="search-box" onsubmit="return handleForm()">   
+            <div id="search"> 
+                <div id="search-background">
+                <h3 id="src">SEARCH</h3>
+            </div>
+
+            <form  method="post" autocomplete="off">
+                    <input type="text" name="search" id="search-input" placeholder="   Search Here..."/>
+                    <button > Search</button>
+            </form>
+
+        </section>
+        
+                            <!-- most popular  -->
+        <section id="popular"> 
+            <div>
+                <div id="popular_background"></div>
+                <h3 id="pop">MOST POPULAR</h3>
+            </div>
+            
+            <ul class="buttons-press">
+                <li id="clicked"  onclick="popular(this)">Popular </li> 
+                <li onclick="popular(this)">Recent </li>
+                <li onclick="popular(this)">Comments </li> 
+                <li onclick="popular(this)">Tags </li> 
+                <p class="content popular ">popular content</p>
+                <p class="content recent">Recent stuff</p>
+                <p class="content comment">Comments on your post</p>
+                <p class="content tag">Previous tags</p>
+            </ul>
+        </section>
+        
+                                <!-- categories -->
+        <section id="categories">
+            <div>
+                <div id="cat_background"></div>
+                <h3 id="cat">CATEGORIES</h3>
+            </div>
+
+            <section id="selection">
+                <section id="first">
+
+                    <h4> <a href="#"> Facebook </a> </h4>
+                    <h4> <a href="#"> Youtube </a> </h4>
+                    <h4> <a href="#"> Twitter </a> </h4>
+                    <h4> <a href="#"> Google Plus </a> </h4>
+                    <h4> <a href="#"> How To </a> </h4>
+                    <h4> <a href="#"> Apple </a> </h4>
+                    <h4> <a href="#"> Social Media </a> </h4>
+                    <h4> <a href="#"> Tech </a> </h4>
+                    <h4> <a href="#"> Entertainment </a> </h4>
+                </section>
+                <section id="second">
+                    <h4> <a href="#"> About  </a> </h4>
+                    <h4> <a href="#"> Contact Us </a> </h4>
+                    <h4> <a href="#"> Sitemap </a> </h4>
+                    <h4> <a href="#"> Write For Us </a> </h4>
+                </section>
+            </section>
+        </section>
+
+                                <!-- video of the week -->
+        <section id="vid"> 
+            <img src="img/vid.png" alt=" vid of the week img">
+            <video width="300" height="170" controls>
+                <source src="img/video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+    </section>
+</main>
+
+<footer>
+    <!-- <main>
+                                    footer
+    <section id="first_colon">
+        <div>
+            <img src="img/mini_OSF.png" alt=" mini osf">
+            <div></div>
+        </div>
+        <p></p>
+            <p></p>
+
+            <p id="copyright">Copyright © 2013 <span>  OSF-Global Services </span>All Rights Reserved.</p>
+
+    </section>
+
+    twitter
+    
+    <section id="second_colon">
+        <div>   
+            <h4> TWITTER</h2>
+            <div> </div>
+        </div>
+    </section>
+
+    recent posts
+    
+    <section id="third_colon">
+        <div>   
+            <h4> RECENT POSTS</h2>
+            <div> </div>
+        </div>
+        <ul>
+            <li>
+                </li>
+            <li>
+                
+            </li>
+            <li>
+                
+            </li>
+            <li>
+                
+            </li>
+            <li>
+                
+            </li>
+            <li>
+                
+            </li>
+        </ul>
+    </section>
+
+    flickr
+    
+    <section id="fourth_colon">
+        <div>   
+            <h4> FLICKR</h2>
+            <div> </div>
+        </div>
+
+        <div id="stkrs">
+            <ul>
+                
+                <li></li>
+                <li><img src="img/stkr5.png" alt="stkr5"></li>
+                <li><img src="img/stkr6.png" alt="stkr6"></li>
+            </ul>
+        </div>
+    </section>
+    </main> -->
+
+    
+<table>
+    <thead>
+        <tr>
+            <th class="col1">
+                <img src="img/mini_OSF.png" alt=" mini osf">
+                <div></div>
+            </th>
+            <th class="col2">
+                <h4> TWITTER</h4>
+                <div> </div>
+            </th>
+            <th class="col3">
+                <h4> RECENT POSTS</h4>
+                <div> </div>
+            </th>
+            <th class="col4">
+                <h4> FLICKR</h4>
+                <div> </div>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="col1" rowspan="2"> <p>Ride Magazine is a full service Web Design, 
+                Marketing and Advertising Company geared 
+                to help small to medium size businesses 
+                create a plan to succeed. Form Graphics, 
+                Print (Display ad, brochures, etc.), Internet 
+                research & Marketing and Web Site Design 
+                and Development, High Magazine can do it 
+                all for you.</p> </td>
+            <td class="col2">
+                <button> <h4 class="name"> Did the iOS 5 Update Solve Your iPhoneBattery Issues? [POLL]. </h4> </button>
+                <p> about <span class="time"> 22 </span> hours ago</p>
+                <p class="border_1">- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>
+                <p class="border_2">- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>
+            </td>
+            <td class="col3">
+                <button> <h4 class="name"> TVGuide.com Watchlist Predicts Fall TV Shows’ Success </h4> </button>
+                <p class="border_1">- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>
+                <p class="border_2">- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>
+            </td>
+            <td class="col4">
+                <img src="img/stkr1.png" alt="stkr1">
+                <img src="img/stkr2.png" alt="stkr2">
+            </td>
+        </tr>
+
+        <tr>
+            
+            <td class="col2">
+                <button> <h4 class="name"> Free Magazine Charges Subscription Fee on iPad and Gives it to Charity. </h4> </button>
+                <p> about <span class="time"> 22 </span> hours ago</p>
+                <p class="border_1">- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>
+                <p class="border_2">- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>
+            </td>
+            <td class="col3">
+                <button> <h4 class="name"> 7 Ways to Create a Memorable Customer Experience With Social... </h4> </button>
+                <p class="border_1">- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>
+                <p class="border_2">- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>
+            </td>
+            <td class="col4">
+                <img src="img/stkr3.png" alt="stkr3">
+                <img src="img/stkr4.png" alt="stkr4">
+            </td>
+        </tr>
+
+        <tr>
+            <td class="col1" ><p>Our mission is to serve our clients big or 
+                small with the same passion, integrity, 
+                loyalty and effectiveness, without the high 
+                expense normally associated with these 
+                types of services.</p>
+            </td>
+            
+            <td class="col2">
+                <button> <h4 class="name"> Tidal, the Startup That Gets Big Exposure for Blog Posts. </h4> </button>
+                <p> about <span class="time"> 22 </span> hours ago</p>
+                <p class="border_1">- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>
+                <p class="border_2">- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>
+            </td>
+            <td class="col3">
+                <button> <h4 class="name"> Apitple Gives Its Key Execs $400 Million in Bonuses </h4> </button>
+                <p class="border_1">- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>
+                <p class="border_2">- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>
+            </td>
+            <td class="col4">
+                <img src="img/stkr5.png" alt="stkr5">
+                <img src="img/stkr6.png" alt="stkr6">
+            </td>
+        </tr>
+
+        <tr>
+            <td class="col1" ></td>
+            <td class="col2">
+                <button> <h4 class="name">Like Social Profile Photo Hacks? Create One for Mashable's Google+... </h4> </button>
+                <p> about <span class="time"> 22 </span> hours ago</p>
+                <p class="border_1">- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>
+                <p class="border_2">- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>
+            </td>
+            <td class="col3"><button> <h4 class="name">How 5 Tech Giants Are Giving Back to Education </h4> </button>
+                <p class="border_1">- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>
+                <p class="border_2">- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>
+            </td>
+            <td class="col4"></td>
+        </tr>
+
+        <tr>
+            <td class="col1" ></td>
+            <td class="col2"><button> <h4 class="name"> @starlingpoet @klout What i'm supposed to do with this? </h4> </button>
+                <p> about <span class="time"> 22 </span> hours ago</p>
+                <p class="border_1">- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>
+                <p class="border_2">- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p></td>
+            <td class="col3">
+                <button> <h4 class="name"> Battlefield 3 Has Record Opening Weekend Despite Tech Woes </h4> </button>
+                <p class="border_1">- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>
+                <p class="border_2">- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>
+            </td>
+            <td class="col4"></td>
+        </tr>
+
+        <tr>
+            <td class="col1"> </td>
+            <td class="col2"> </td>
+            <td class="col3">
+                <button> <h4 class="name"> The Evolving Role of Social Media in News Organizations [LIVE Q&A] </h4> </button>
+                <p class="border_1">- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>
+                <p class="border_2">- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>
+            </td>
+            <td class="col4"></td>
+        </tr>
+    </tbody>
+</table>
+
+</footer>
+
+
+<script src="app.js"></script>
